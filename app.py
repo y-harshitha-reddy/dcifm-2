@@ -33,7 +33,7 @@ except Exception:
 APP_NAME = "DCIFM"
 APP_SUBTITLE = "Dynamic Consumer Identity Forecasting Model"
 BASE = Path(__file__).resolve().parent
-DATA_PATH = BASE / "data" / "DCIFM_Master_Consumer_Dataset_10000.xlsx"
+DATA_PATH = BASE / "data" / "DCIFM_Master_Consumer_Dataset_10000.csv"
 MODEL_DIR = BASE / "models"
 DB_PATH = BASE / "dcifm.db"
 
